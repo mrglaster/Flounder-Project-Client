@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Flounder-Client</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="switch_to_login">Switch to Login</string>
+    <string name="login">Login</string>
+    <string name="switch_to_register">Switch to Register</string>
+    <string name="download">Download</string>
+</resources>

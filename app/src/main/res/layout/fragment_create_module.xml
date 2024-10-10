@@ -1,0 +1,49 @@
+<!-- res/layout/fragment_create_study_module.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Поле для ввода topic -->
+    <EditText
+        android:id="@+id/et_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Topic" />
+
+    <!-- Выпадающий список для выбора языка -->
+    <Spinner
+        android:id="@+id/sp_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Выпадающий список для выбора языка перевода -->
+    <Spinner
+        android:id="@+id/sp_translation_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Контейнер для динамического добавления пар слов -->
+    <LinearLayout
+        android:id="@+id/word_translation_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Кнопка для добавления еще одной строки -->
+    <Button
+        android:id="@+id/btn_add_word_translation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add word/translation" />
+
+    <!-- Кнопка для отправки запроса -->
+    <Button
+        android:id="@+id/btn_create_module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Module"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
